@@ -1,0 +1,253 @@
+/*
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet"> 
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  height: 100%;
+}
+
+.section1 .block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 150px auto;
+  flex-wrap: wrap;
+}
+
+.block div {
+  margin: 50px auto;
+  height: 100%;
+}
+
+.block div .logo {
+  animation: zoom infinite 2s linear;
+}
+
+.block div h1 {
+  font-size: 6vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.block div h5 {
+  font-size: 2.5vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.section2 .block2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.block2 div {
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.block2 div .profile {
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.block2 div .profile:hover {
+  transform: scale(1.1);
+}
+
+.block2 div p {
+  font-size: 2vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  width: 70ch;
+}
+
+.section3 {
+    padding: 50px 0;
+}
+
+.block3 h6 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-weight: 100;
+  color: white;
+  margin: 50px auto;
+  letter-spacing: 10px;
+}
+
+.block3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10%;
+  flex-wrap: wrap;
+}
+
+.block3 .box {
+  padding: 15px 20px;
+  margin: 10px;
+  width: 45%;
+  height: 200px;
+  background-color: rgb(206, 206, 206);
+  color: black;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.block3 .box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 2px 1px white;
+  background-color: rgb(236, 236, 236);
+}
+
+.block3 .box h5 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 0;
+}
+
+.block3 .box p {
+  font-size: 16px;
+  text-align: justify;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 10px 0;
+}
+
+.block3 .box .light {
+  font-size: 14px;
+  opacity: 0.8;
+  font-family: "Poppins", sans-serif;
+}
+
+.block3 .box2 {
+  margin: 10px 50px;
+  color: black;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.block3 .box2:hover {
+  transform: scale(1.05);
+}
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 12%;
+  color: white;
+}
+
+.dock {
+    text-align: center;
+  width: 50%;
+}
+
+.dock .block4 {
+  margin: 20px 0;
+}
+
+.block5 {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dock .block4 h1 {
+  font-size: 42px;
+  color: #1891f3;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  margin: 10px 0;
+}
+.dock .block4 h2 {
+  font-size: 42px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.dock .block4 p {
+  font-size: 14px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.7;
+  font-weight: 500;
+  margin: 25px 0;
+}
+
+.dock .block4 h5 {
+  font-size: 16px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.dock .block4 a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .block div .logo {
+    width: 300px;
+  }
+
+  .block2 div p {
+    width: 40ch;
+  }
+
+  .block2 div .profile {
+    width: 300px;
+  }
+
+  .block3 .box {
+    width: 100%;
+    height: auto;
+  }
+
+  .block3 .box2 {
+    margin: 10px 30px;
+  }
+
+  .dock {
+    width: 100%;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
