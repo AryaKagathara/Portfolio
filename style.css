@@ -101,7 +101,7 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 10%;
+  margin: 0 3%;
   flex-wrap: wrap;
 }
 
@@ -109,7 +109,6 @@ section {
   padding: 15px 20px;
   margin: 10px;
   width: 45%;
-  height: 200px;
   background-color: rgb(206, 206, 206);
   color: black;
   border-radius: 5px;
@@ -223,7 +222,7 @@ section {
   }
 
   .block2 div .profile {
-    width: 300px;
+    width: 250px;
   }
 
   .block3 .box {
